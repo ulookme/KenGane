@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		99B260CE236DBEE1008470C4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B260CD236DBEE1008470C4 /* main.swift */; };
+		99B260D5236DBF50008470C4 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B260D4236DBF50008470C4 /* Player.swift */; };
+		99B260D7236DBF6E008470C4 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B260D6236DBF6E008470C4 /* Game.swift */; };
+		99B260D9236DBFB0008470C4 /* TeamGamer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B260D8236DBFB0008470C4 /* TeamGamer.swift */; };
+		99B260DC236DBFE8008470C4 /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B260DB236DBFE8008470C4 /* Weapon.swift */; };
+		99B260DE236DBFFF008470C4 /* Sword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B260DD236DBFFF008470C4 /* Sword.swift */; };
+		99B260E0236DC05B008470C4 /* Dagger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B260DF236DC05B008470C4 /* Dagger.swift */; };
+		99B260E2236DC081008470C4 /* Scepter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B260E1236DC081008470C4 /* Scepter.swift */; };
+		99B260E4236DC09B008470C4 /* GlotesPunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B260E3236DC09B008470C4 /* GlotesPunch.swift */; };
+		99B260E7236DC0C7008470C4 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B260E6236DC0C7008470C4 /* Character.swift */; };
+		99B260E9236DC2C2008470C4 /* Paladin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B260E8236DC2C2008470C4 /* Paladin.swift */; };
+		99B260EB236DC2EB008470C4 /* Assassin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B260EA236DC2EB008470C4 /* Assassin.swift */; };
+		99B260ED236DC373008470C4 /* Witcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B260EC236DC373008470C4 /* Witcher.swift */; };
+		99B260EF236DC3C6008470C4 /* OnePunchMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B260EE236DC3C6008470C4 /* OnePunchMan.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +38,19 @@
 /* Begin PBXFileReference section */
 		99B260CA236DBEE1008470C4 /* KenGane */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KenGane; sourceTree = BUILT_PRODUCTS_DIR; };
 		99B260CD236DBEE1008470C4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		99B260D4236DBF50008470C4 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		99B260D6236DBF6E008470C4 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		99B260D8236DBFB0008470C4 /* TeamGamer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamGamer.swift; sourceTree = "<group>"; };
+		99B260DB236DBFE8008470C4 /* Weapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
+		99B260DD236DBFFF008470C4 /* Sword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sword.swift; sourceTree = "<group>"; };
+		99B260DF236DC05B008470C4 /* Dagger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dagger.swift; sourceTree = "<group>"; };
+		99B260E1236DC081008470C4 /* Scepter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scepter.swift; sourceTree = "<group>"; };
+		99B260E3236DC09B008470C4 /* GlotesPunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlotesPunch.swift; sourceTree = "<group>"; };
+		99B260E6236DC0C7008470C4 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		99B260E8236DC2C2008470C4 /* Paladin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paladin.swift; sourceTree = "<group>"; };
+		99B260EA236DC2EB008470C4 /* Assassin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assassin.swift; sourceTree = "<group>"; };
+		99B260EC236DC373008470C4 /* Witcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Witcher.swift; sourceTree = "<group>"; };
+		99B260EE236DC3C6008470C4 /* OnePunchMan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePunchMan.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +84,37 @@
 			isa = PBXGroup;
 			children = (
 				99B260CD236DBEE1008470C4 /* main.swift */,
+				99B260D4236DBF50008470C4 /* Player.swift */,
+				99B260D6236DBF6E008470C4 /* Game.swift */,
+				99B260D8236DBFB0008470C4 /* TeamGamer.swift */,
+				99B260DA236DBFC3008470C4 /* Weapon */,
+				99B260E5236DC0A5008470C4 /* Character */,
 			);
 			path = KenGane;
+			sourceTree = "<group>";
+		};
+		99B260DA236DBFC3008470C4 /* Weapon */ = {
+			isa = PBXGroup;
+			children = (
+				99B260DB236DBFE8008470C4 /* Weapon.swift */,
+				99B260DD236DBFFF008470C4 /* Sword.swift */,
+				99B260DF236DC05B008470C4 /* Dagger.swift */,
+				99B260E1236DC081008470C4 /* Scepter.swift */,
+				99B260E3236DC09B008470C4 /* GlotesPunch.swift */,
+			);
+			path = Weapon;
+			sourceTree = "<group>";
+		};
+		99B260E5236DC0A5008470C4 /* Character */ = {
+			isa = PBXGroup;
+			children = (
+				99B260E6236DC0C7008470C4 /* Character.swift */,
+				99B260E8236DC2C2008470C4 /* Paladin.swift */,
+				99B260EA236DC2EB008470C4 /* Assassin.swift */,
+				99B260EC236DC373008470C4 /* Witcher.swift */,
+				99B260EE236DC3C6008470C4 /* OnePunchMan.swift */,
+			);
+			path = Character;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +175,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99B260E9236DC2C2008470C4 /* Paladin.swift in Sources */,
+				99B260DC236DBFE8008470C4 /* Weapon.swift in Sources */,
+				99B260EF236DC3C6008470C4 /* OnePunchMan.swift in Sources */,
+				99B260EB236DC2EB008470C4 /* Assassin.swift in Sources */,
+				99B260ED236DC373008470C4 /* Witcher.swift in Sources */,
+				99B260D5236DBF50008470C4 /* Player.swift in Sources */,
+				99B260D9236DBFB0008470C4 /* TeamGamer.swift in Sources */,
+				99B260D7236DBF6E008470C4 /* Game.swift in Sources */,
 				99B260CE236DBEE1008470C4 /* main.swift in Sources */,
+				99B260DE236DBFFF008470C4 /* Sword.swift in Sources */,
+				99B260E2236DC081008470C4 /* Scepter.swift in Sources */,
+				99B260E7236DC0C7008470C4 /* Character.swift in Sources */,
+				99B260E4236DC09B008470C4 /* GlotesPunch.swift in Sources */,
+				99B260E0236DC05B008470C4 /* Dagger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

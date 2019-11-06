@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  TeamGamer.swift
 //  KenGane
 //
 //  Created by ano on 02/11/2019.
@@ -8,5 +8,7 @@
 
 import Foundation
 
-
-
+// 
+class TeamGamer {
+    
+}
