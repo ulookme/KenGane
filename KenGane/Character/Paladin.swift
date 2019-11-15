@@ -10,7 +10,7 @@ import Foundation
 
 class Paladin  : Character{
     init(name : String) {
-        super.init(name: "Paladin", weapon: Sword(), maxlife: 120, life: 100)
+        super.init(name: "Paladin", weapon: Sword(), maxlife: 120, life: 100, isBloked: false)
         
     }
 }

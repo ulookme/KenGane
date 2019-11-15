@@ -11,7 +11,7 @@ import Foundation
 
 class OnePunchMan : Character {
     init(name : String) {
-        super.init(name: "OnePunchMan", weapon: Sword(), maxlife: 120, life: 110)
+        super.init(name: "OnePunchMan", weapon: Sword(), maxlife: 120, life: 110, isBloked: false)
       }
     
 }

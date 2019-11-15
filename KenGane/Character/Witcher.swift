@@ -11,7 +11,7 @@ import Foundation
 
 class Witcher : Character {
     init(name : String) {
-        super.init(name: "Witcher", weapon: Sword(), maxlife: 120, life: 100)
+        super.init(name: "Witcher", weapon: Sword(), maxlife: 120, life: 100, isBloked: false)
       }
     
 }

@@ -10,7 +10,7 @@ import Foundation
 
 class Assassin : Character {
     init(name : String) {
-        super.init(name: "Assasin", weapon: Sword(), maxlife: 100, life: 70)
+        super.init(name: "Assasin", weapon: Sword(), maxlife: 100, life: 70, isBloked: false)
       }
     
 }

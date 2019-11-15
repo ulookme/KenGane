@@ -12,7 +12,7 @@ class Player {
     
     var namePlayer : String
     var maxPlayer = 2
-    var character = [Character]()
+    var characters = [Character]()
     init(namePlayer: String) {
         self.namePlayer = namePlayer
         // Acte 2 /// 2 * apres la cleration des proprieter de la classe player ( les variable nom du joueur , le nombre maximun de joueur  et les charactere ou personnage choisi on effection linitialisation de celle ci  avec name playeur en utilisant  le mots clef self pour self.
@@ -21,8 +21,19 @@ class Player {
         
     }
     
-  
-    
+  // function returns true if the character is dead
+  func isDead() -> Bool {
+    var isDead = false
+    for character in characters {
+      if character.life <= 0 {
+        isDead = true
+      } else { //false
+        isDead = false
+        return isDead
+      }
+    }
+    return isDead
+  }  
     
     
 }
